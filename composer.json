@@ -1,0 +1,27 @@
+{
+    "name": "huhuafeng/alipay",
+    "description": "支付宝SDK",
+    "type": "library",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "php": ">=5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hhf",
+            "email": "5375530@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "huhuafeng\\alipay\\": "src/"
+        },
+        "files": [
+            "src/AopEncrypt.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
